@@ -34,7 +34,7 @@ const Skills = () => {
                   />
                 </div>
                 <h4>
-                  <a href="">MY SQL</a>
+                  <a href="">JavaScript</a>
                 </h4>
                 <p>
                   JavaScript is a scripting or programming language that allows
