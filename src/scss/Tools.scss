@@ -1,0 +1,17 @@
+.tool_card {
+    width: 150px;
+    height: 150px;
+    //background-color: rgb(20, 19, 20);
+    border: solid 2px #ed5b5b;
+    margin-right: 30px;
+  }
+  .container_tools {
+   // margin-bottom: -25px;
+    display: flex;
+    flex-direction: row;
+   // background-color: rgb(177, 71, 71);
+  }
+  
+  .tools-footer{
+      margin-top: 50px;
+  }
