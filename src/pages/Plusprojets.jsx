@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import img_projet1 from "./../img/card compresser/PKD.png";
 import img_projet2 from "./../img/card compresser/PCINEMA.png";
 import img_projet3 from "./../img/card compresser/PENVIRONEWS.png";
+
+import img_projet44 from "./../img/card compresser/PCOREA2.png";
 import img_projet4 from "./../img/card compresser/PCOREA.png";
 import img_projet5 from "./../img/card compresser/PBAC.png";
 import img_projet6 from "./../img/card compresser/PTOZOBENGA.png";
@@ -101,6 +103,28 @@ const Plusprojets = () => {
                 </div>
               </div>
             </div>
+            <div
+              className="col-lg-4 col-md-6 col-12 mb-5"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div className="projet-thumb">
+                <a href="http://www.coreasofts.com/accueil">
+                  <img src={img_projet44} className="img-fluid" alt="projet" />
+                </a>
+
+                <div className="projet-info">
+                  <h3 className="projet_title mb-1">
+                    Kinshasa Digital main's page
+                  </h3>
+
+                  <p className="projet_detail mt-3">
+                    Desktop reproduction of the Kinshasa digital agency home
+                    page
+                  </p>
+                </div>
+              </div>
+            </div>
                <div
               className="col-lg-4 col-md-6 col-12 mb-5"
               data-aos="fade-up"
@@ -151,7 +175,7 @@ const Plusprojets = () => {
               data-aos-delay="400"
             >
               <div className="projet-thumb">
-                <a href="https://kinshasadigital.com/">
+                <a href="https://www.figma.com/proto/E7N9hrQDrWaAuumdKz8QHo/BAC-2?node-id=3%3A2&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=3%3A2&hide-ui=1/">
                   <img src={img_projet5} className="img-fluid" alt="projet" />
                 </a>
 
